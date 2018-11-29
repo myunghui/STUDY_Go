@@ -1,1 +1,1 @@
-# The Go Programming Language 스터디
+# 참고도서 : The Go Programming Language
