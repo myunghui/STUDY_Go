@@ -211,7 +211,7 @@ func Println(a ...interface{}) (n int, err error) {
   	}
   }
   ```
-  ![fig.7.3](.\fig_7_3.PNG)
+  ![fig.7.3](fig_7_3.PNG)
 
 ### 7.5  주요 인터페이스의 활용
 
