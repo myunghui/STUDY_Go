@@ -168,23 +168,23 @@ func Println(a ...interface{}) (n int, err error) {
   ```go
   var w io.Writer 
   ```
-  ![fig.7.1](.\fig_7_1.PNG)
+  ![fig.7.1](fig_7_1.PNG)
 
   ###### - *os.File를 포함한 인터페이스 값
   ```go
   w = os.Stdout 
   ```
-  ![fig.7.2](.\fig_7_2.PNG)
+  ![fig.7.2](fig_7_2.PNG)
   ###### - *bytes.Buffer를 포함한 인터페이스 값
   ```go
   w = new(bytes.Buffer) 
   ```
-  ![fig.7.3](.\fig_7_3.PNG)
+  ![fig.7.3](fig_7_3.PNG)
   ###### - `nil`로 명시적 초기화한 인터페이스 값
   ```go
   w = nil
   ```
-  ![fig.7.1](.\fig_7_1.PNG)
+  ![fig.7.1](fig_7_1.PNG)
 
   ###### - `nil`포인터를 가진 `nil` 아닌 인터페이스 값
   ```go
